@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SecondActivity">
+
+    <!-- Agregar más elementos aquí -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESUMEN MATRÍCULA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAlumno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="ALUMNO:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEscuela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESCUELA:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCarrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CARRERA:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGastosAdicionalesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="GASTOS ADICIONALES:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMontoGastosAdicionales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONTO GASTOS ADICIONALES:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNumCuotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NÚMERO DE CUOTAS:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCostoCarreraLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="COSTO CARRERA: S/."
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PENSION:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGastosAdicionalesTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GASTOS ADICIONALES: S/."
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalPagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TOTAL PAGAR S/."
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="300dp"
+        android:text="Volver" />
+
+</LinearLayout>

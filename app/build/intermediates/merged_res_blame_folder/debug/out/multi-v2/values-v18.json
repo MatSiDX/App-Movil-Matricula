@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.proyecto_dam_tarea01.app-mergeDebugResources-27:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Brayan\\.gradle\\caches\\transforms-3\\e9ae72c11e6e08c08a7e177bedd18d43\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

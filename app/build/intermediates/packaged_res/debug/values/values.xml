@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#E91E63</color>
+    <color name="teal_700">#E91E9F</color>
+    <color name="white">#FFFFFFFF</color>
+    <item name="tvAlumno" type="id"/>
+    <string name="ALUMNO">ALUMNO</string>
+    <string name="ESCUELA">ESCUELA</string>
+    <string name="MATRICULA">MATRICULA</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="alumno">ALUMNO</string>
+    <string name="app_name">Proyecto-DAM-tarea01</string>
+    <string name="carnet_biblioteca">Carnet Biblioteca</string>
+    <string name="carnet_medio_pasaje">Carnet Medio Pasaje</string>
+    <string name="costo_carrera">COSTO CARRERA</string>
+    <string name="escuela">ESCUELA</string>
+    <string name="gastos_adicionales">GASTOS ADICIONALES</string>
+    <string name="n_mero_de_cuotas">NÚMERO DE CUOTAS</string>
+    <string name="pensi_n">PENSIÓN</string>
+    <string name="s">S/.</string>
+    <string name="textview">TextView</string>
+    <style name="Theme.ProyectoDAMtarea01" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorPrimaryVariant">#01504F</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
